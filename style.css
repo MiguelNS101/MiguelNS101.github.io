@@ -4,18 +4,21 @@ body {
 }
 
 .header {
+    border-radius: 25px;
     background-color: #F6F7EB ;
     box-shadow: 0 5px 5px #333333;
     margin:auto;
 }
 
 .footer {
+    border-radius: 25px;
     background-color: #F6F7EB ;
     box-shadow: 0 5px 5px #333333;
     margin:auto;
 }
 
 .main-card { 
+    border-radius: 25px;
     background-color: #F6F7EB ;
     margin: 50px auto;
     padding: 20px 30px 30px;
@@ -61,16 +64,33 @@ label:hover {
   }
 
   .bloco-conteudo {
+    border-radius: 25px;
     border-top: 5px solid #3D3D3D;
     border-right: 5px solid #3D3D3D;
     border-left: 5px solid #3D3D3D;
     border-bottom: 5px solid #3D3D3D;
     height: 600px;
     padding: 10px 10px 10px;
+    overflow: auto;
   }
 
   .main-text {
+    text-align: center;
     color: #3D3D3D;
     font-family: 'Space Mono', monospace;
     margin: 10px;
   }
+
+  .avatar {
+    width:  150px;
+    border-radius: 50px;
+  }
+
+  .icone {
+    margin: 10px;
+    width:  150px;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+}
