@@ -4,6 +4,7 @@ body {
 }
 
 .header {
+    width: auto;
     border-radius: 25px;
     background-color: #F6F7EB ;
     box-shadow: 0 5px 5px #333333;
@@ -11,6 +12,7 @@ body {
 }
 
 .footer {
+    width: auto;
     border-radius: 25px;
     background-color: #F6F7EB ;
     box-shadow: 0 5px 5px #333333;
@@ -34,16 +36,17 @@ input, section {
 }
 
 label {
+    width: 30%;
     color: #3D3D3D;
     font-family: 'Space Mono', monospace;
     font-weight: bold;
     font-size: 30px;
     display: block;
     float: left;
-    padding: 10px 85px;
+    padding: 10px 50px ;
     border-top: 5px solid transparent;
-    border-right: 0px solid transparent;
-    border-left: 0px solid transparent;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
     border-bottom: 0px solid transparent;
 }
 
