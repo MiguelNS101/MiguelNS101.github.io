@@ -43,10 +43,10 @@ label {
     color: #3D3D3D;
     font-family: 'Space Mono', monospace;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     display: block;
     float: left;
-    padding: auto 50px ;
+    padding: auto ;
     border-top: 5px solid transparent;
     border-right: 10px solid transparent;
     border-left: 10px solid transparent;
@@ -94,7 +94,7 @@ label:hover {
 
   .icone {
     margin: 10px;
-    width:  140px;
+    width:  130px;
   }
 
   ::-webkit-scrollbar {
