@@ -93,6 +93,7 @@ label:hover {
   .avatar {
     width:  150px;
     border-radius: 50px;
+    border: 5px solid #560BAD;
   }
 
   .icone {
@@ -102,4 +103,9 @@ label:hover {
 
   ::-webkit-scrollbar {
     display: none;
+}
+
+.button {
+  text-decoration: none;
+  color: #560BAD;
 }
